@@ -3,6 +3,8 @@
 /**
  * main - prints alphaber in lower case then in
  * upper case, follwed by a new line
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
