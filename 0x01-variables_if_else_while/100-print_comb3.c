@@ -21,7 +21,7 @@ int main(void)
 			putchar((digit2 % 10) + '0');
 
 			/*don't add ',' and space when at 89*/
- 			if (digit1 == 8 && digit2 == 9)
+			if (digit1 == 8 && digit2 == 9)
 				continue;
 
 			putchar(',');
