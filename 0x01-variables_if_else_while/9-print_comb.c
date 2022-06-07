@@ -15,9 +15,7 @@ int main(void)
 	{
 		putchar((n % 10) + '0');
 
-		/*skip putchar(',') and putchar(' ')
-		 * when n is 9
-		 */
+		/*skip putchar(',') and putchar(' ') when n is 9*/
 
 		if (n == 9)
 			continue;
