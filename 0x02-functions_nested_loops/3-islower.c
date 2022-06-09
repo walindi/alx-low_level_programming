@@ -1,11 +1,7 @@
-/**
- * Author: Barack Walindi
- */
-
 #include "main.h"
 
 /**
- * _islower - checks for lowercase character
+ * _islower - checks if int c is a lowercase character
  *
  * Return: 1 if lowercase, 0 otherwise
  */
