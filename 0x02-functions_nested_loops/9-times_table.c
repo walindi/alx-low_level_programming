@@ -21,7 +21,7 @@ void times_table(void)
 
 			if (x == 0)
 			{
-				_putchar(mtiple + '0');
+				_putchar(multiple + '0');
 			}
 
 			else if (multiple >= 10)
