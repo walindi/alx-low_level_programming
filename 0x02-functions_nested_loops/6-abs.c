@@ -3,18 +3,27 @@
 /**
  * _abs - returns absolute value of an int
  *
- * @r: integer from which to get absolute value
+ * @n: integer from which to get absolute value
  *
  * Return: Always 0
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	int r;
 
-	if (r < 0)
+	if (n < 0)
 	{
 		return (n * -1);
+	}
+
+	else if (n == 0):
+	{
+		return (0);
+	}
+
+	else
+	{
+		return (n);
 	}
 
 	return (0);
