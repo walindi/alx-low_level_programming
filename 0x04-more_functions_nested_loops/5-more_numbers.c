@@ -19,7 +19,7 @@ void more_numbers(void)
 			if (ch >= 10)
 			{
 				_putchar((ch / 10) + 48);
-				_putchar((ch % 10( + 48)));
+				_putchar((ch % 10) + 48);
 			}
 		}
 
